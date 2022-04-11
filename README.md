@@ -16,7 +16,7 @@ Demo : [SongProBot  🎻](https://t.me/SongProBot) 💃🏻
 Easy To Deploy 🤗
 
 # Click Below Image to Deploy
-[![Deploy](https://telegra.ph/file/9d337b3414bbf8e39ba79.jpg)](https://heroku.com/deploy?template=https://github.com/kaveeneth/KNR-Musicplay)
+[![Deploy](https://telegra.ph/file/acf5163b7255b79fca645.jpg)](https://heroku.com/deploy?template=https://github.com/kaveeneth/KNR-Musicplay)
 # DEPLOY
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kaveeneth/KNR-Musicplay)
 
