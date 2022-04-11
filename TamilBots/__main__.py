@@ -11,11 +11,11 @@ from TamilBots.sql.chat_sql import add_chat_to_db
 start_text = """
 👋 𝗛𝗲𝗹𝗹𝗼 [{}](tg://user?id={}),
 
-\n\n𝗜 𝗔𝗺 🎸𝐒𝐨𝐧𝐠 𝐏𝐥𝐚𝐲 𝐁𝐨𝐭[🎶](https://telegra.ph/file/6cb884fe1cb943ec12df1.mp4)
+\n\n🎸𝙄 𝙖𝙢 [𝙆𝙖𝙫𝙚𝙚𝙨𝙝𝙖'𝙨 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮 𝘽𝙤𝙩 🎶](https://telegra.ph/file/acf5163b7255b79fca645.jpg)
 
-I'M Music Bot By @TamilBots 🤖
+⚙️ 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙚𝙡𝙮 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙙 𝘽𝙮 [𝙆𝙖𝙫𝙚𝙚𝙨𝙝𝙖 𝙉𝙚𝙩𝙝𝙢𝙖𝙡](https://t.me/jason_spqr_roman_Kr) ⚙️
 
-𝗦𝗲𝗻𝗱 𝗧𝗵𝗲 𝗡𝗮𝗺𝗲 𝗢𝗳 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁... 😍🥰🤗
+𝙎𝙚𝙣𝙙 𝙏𝙝𝙚 𝙉𝙖𝙢𝙚 𝙤𝙛 𝙩𝙝𝙚 𝙎𝙤𝙣𝙜 𝙔𝙤𝙪 𝙒𝙖𝙣𝙩... 🎶🎶
 
 𝐄𝐠. ```/song Faded```
 """
@@ -36,9 +36,9 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👬", url="http://t.me/TamilSupport"),
+           [[InlineKeyboardButton(text="👥 Oғғɪᴄɪᴀʟ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/Kaveesha_bot_Support"),
              InlineKeyboardButton(
-                        text="𝐀𝐃𝐃 𝐌𝐄 🤗", url="http://t.me/SongProBot?startgroup=true"
+                        text="➕ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="https://t.me/Kaveesha_Music_play_Bot?startgroup=true"
                     )
                 ]
             ]
@@ -54,10 +54,10 @@ async def help(client, message):
     if message.from_user["id"] == OWNER_ID:
         await message.reply(owner_help)
         return ""
-    text = "𝗦𝗲𝗻𝗱 𝗧𝗵𝗲 𝗡𝗮𝗺𝗲 𝗢𝗳 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁... 😍🥰🤗\n /song (song name) 🥳"
+    text = "𝙎𝙚𝙣𝙙 𝙏𝙝𝙚 𝙉𝙖𝙢𝙚 𝙤𝙛 𝙩𝙝𝙚 𝙎𝙤𝙣𝙜 𝙔𝙤𝙪 𝙒𝙖𝙣𝙩... 🎶🎶\n /song (song name) 🥳"
     await message.reply(text)
 
 OWNER_ID.append(1492186775)
 app.start()
-LOGGER.info("SongPlayRoBot Is Now Working🤗🤗🤗")
+LOGGER.info("𝙆𝙖𝙫𝙚𝙚𝙨𝙝𝙖'𝙨 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮 𝘽𝙤𝙩 Is Now Working🤗🤗🤗")
 idle()
